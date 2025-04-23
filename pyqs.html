@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website FYQs</title>
+    <link rel="stylesheet" href="pyqs.css">
+</head>
+<body>
+    
+    <main class="main-content">
+        <section class="FAQs">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="question-list">
+                <li>
+                    <button class="question-toggle"> What is this website about?</button>
+                    <div class="answer">This website provides weather forecasts, previous year weather-related questions (PYQs), and other resources related to weather information.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">How do I get the weather forecast for my city?</button>
+                    <div class="answer">You can enter your city name in the search bar on the home page and click the "Search" button. The website will display the current weather and a five-day forecast for your city.</div>
+                </li>
+                <li>
+                    <button class="question-toggle"> Can I get the weather forecast for my current location?</button>
+                    <div class="answer">Yes, you can use the "Use My Location" button to allow the website to access your current location and provide you with the weather forecast.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">How often is the weather data updated?</button>
+                    <div class="answer">The weather data is updated in real-time, fetching the latest information from reliable sources like the OpenWeatherMap API.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">What kind of weather information can I find here?</button>
+                    <div class="answer">The website provides information on temperature, wind speed, humidity, and weather conditions such as rain, snow, and clear skies. </div>
+                </li>
+                <li>
+                    <button class="question-toggle">What are PYQs, and why are they useful?</button>
+                    <div class="answer">PYQs stand for Previous Year Questions. They are useful for students and enthusiasts who want to test their knowledge about weather and related topics. These questions can help in preparing for exams or quizzes.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">How can I contact the website support team?</button>
+                    <div class="answer">You can contact the support team through the "Contact" page on the website. There, you will find a form to fill out with your inquiry, and our team will get back to you as soon as possible.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">Are there any educational resources available on the website?</button>
+                    <div class="answer">Yes, in addition to weather forecasts and PYQs, the website provides educational articles and resources on various weather-related topics.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">How can I provide feedback about the website?</button>
+                    <div class="answer">You can provide feedback through the "Contact" page or any feedback forms available on the website. We appreciate your input to help us improve our services.</div>
+                </li>
+                <li>
+                    <button class="question-toggle">Is the website accessible on mobile devices?</button>
+                    <div class="answer">Absolutely! The website is designed to be responsive and works seamlessly on mobile devices, tablets, and desktops.</div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        document.querySelectorAll('.question-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
