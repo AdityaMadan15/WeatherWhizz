@@ -87,7 +87,7 @@ const getCityCoordinates = () => {
             getWeatherDetails(name, lat, lon);
         })
         .catch(() => {
-            alert("An error occurred while fetching the coordinates!");
+            alert("An error occurred while fetching the given coordinates!");
         });
 };
 
