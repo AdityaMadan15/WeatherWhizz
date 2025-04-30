@@ -17,16 +17,16 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.FAQs h2 {
-    font-size: 1.75em;
-    margin-bottom: 20px;
-}
+
 
 .question-list {
     list-style-type: none;
     padding: 0;
 }
-
+.FAQs h2 {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+}
 .question-list li {
     margin-bottom: 10px;
 }
