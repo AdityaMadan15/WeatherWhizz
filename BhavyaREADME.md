@@ -3,6 +3,7 @@ Roll Number: 2410991000
 Section: G-13 A
 
 Project Description:
+WeatherWhizz is a weather forecasting app.
 As part of my coursework, I have developed a simple web project consisting of two core files:
 
 home.html – This file serves as the main structure of the web page. It contains the HTML (HyperText Markup Language) that defines the content and layout of the homepage. It includes elements such as the header, navigation menu, content section, footer, and links to styles and possibly other resources.
