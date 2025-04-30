@@ -21,7 +21,7 @@ h1 {
     body {
     background: black 
 }
-.weather-input {
+.weather-input{
     width: 550px;
 }
 .weather-input input {
