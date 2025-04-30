@@ -1,0 +1,73 @@
+# Simple key-value pairs
+name: John Doe
+age: 30
+city: New York
+
+# Lists
+languages:
+  - English
+  - Spanish
+  - French
+
+# Nested objects (dictionaries)
+address:
+  street: 123 Main St
+  zip: 10001
+  country: USA
+
+# Boolean and null values
+is_active: true
+occupation: null
+
+# Numbers (integers and floats)
+height: 1.75
+weight: 70
+children: 2
+
+# Multiple documents in a single file (separated by ---)
+---
+product:
+  name: Laptop
+  price: 1200
+  features:
+    - fast processor
+    - large storage
+---
+product:
+  name: Mouse
+  price: 25
+  features:
+    - wireless
+    - ergonomic
+
+# Anchors and aliases (for reusing values)
+defaults: &defaults
+  timeout: 10
+  retries: 3
+
+service1:
+  <<: *defaults
+  url: "http://service1.example.com"
+
+service2:
+  <<: *defaults
+  url: "http://service2.example.com"
+  timeout: 20 #override default timeout
+
+# Multiline strings (using | or >)
+description: |
+  This is a multi-line string.
+  It preserves line breaks.
+  Useful for longer text.
+
+long_string: >
+  This is another multi-line string.
+  It folds long lines into a single line.
+  Extra newlines are collapsed.
+
+# Dates and timestamps
+date: 2023-10-27
+timestamp: 2023-10-27T10:30:00Z
+
+# Scientific notation
+avogadros_number: 6.022e23
