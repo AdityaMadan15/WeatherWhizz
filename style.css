@@ -3,9 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -40,9 +37,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
-
-
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -54,14 +48,11 @@ body {
     border-radius: 8px;
     flex-wrap:wrap;
 }
-
-
 .flex-item {
     flex: 1;
     margin: 10px;
     text-align: center;
 }
-
 .flex-item img {
     max-width: 100%;
     height: auto;
