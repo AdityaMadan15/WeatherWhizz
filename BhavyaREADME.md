@@ -1,8 +1,9 @@
+# WeatherWhizz
 Project Work by: Bhavya Garg
 Roll Number: 2410991000
 Section: G-13 A
 
-Project Description:
+## Project Description:
 WeatherWhizz is a weather forecasting app.
 As part of my coursework, I have developed a simple web project consisting of two core files:
 
@@ -10,7 +11,7 @@ home.html – This file serves as the main structure of the web page. It contain
 
 style.css – This file is used for styling the HTML page. It contains CSS (Cascading Style Sheets) rules that define the visual appearance of elements in the home.html file. These styles may include layout control, font styles, colors, margins, paddings, hover effects, and responsiveness for various screen sizes.
 
-Key Features Implemented:
+## Key Features Implemented:
 Basic structure using semantic HTML tags (<header>, <nav>, <main>, <footer>, etc.).
 
 External CSS linked via <link rel="stylesheet" href="style.css">.
@@ -21,5 +22,5 @@ Responsive design techniques (if included) using media queries in CSS.
 
 Clean and readable code with proper indentation and comments for maintainability.
 
-Objective:
+## Objective:
 The goal of this project was to gain hands-on experience in front-end web development by creating a basic webpage using HTML and CSS. It helped me understand the separation of structure and style and improved my understanding of how to build and design web interfaces.
