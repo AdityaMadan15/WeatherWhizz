@@ -2,13 +2,14 @@ body {
     font-family: Times New Roman , sans-serif;
     background-color:black;
     margin:0;
-    padding: 0;
+    padding:0;
 }
 .header {
      background-color: #2651a2; 
      color: white;
       text-align: center; 
-      padding: 10px 0; } 
+      padding: 10px 0;
+} 
       
 .header h1 {
      margin: 0;
@@ -18,7 +19,7 @@ body {
 
 .news-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
     padding: 20px;
 }
