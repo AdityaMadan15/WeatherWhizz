@@ -32,15 +32,16 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.news-box h2 {
-    font-size: 1.7em;
-    margin: 0 0 10px;
-}
 
 .news-box p {
     font-size: 1em;
     color: #333;
 }
+.news-box h2 {
+    font-size: 1.7em;
+    margin: 0 0 10px;
+}
+
 
 .read-more {
     display: inline-block;
