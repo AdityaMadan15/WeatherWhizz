@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body {
-    background: black 
-}
+
 h1 {
     color: #fff;
     padding: 18px 0; 
@@ -19,6 +17,9 @@ h1 {
     display: flex;
     gap: 35px;
     padding: 30px;
+}
+    body {
+    background: black 
 }
 .weather-input {
     width: 550px;
