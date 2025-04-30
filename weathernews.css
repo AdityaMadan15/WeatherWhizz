@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    margin: 0;
+    font-family: Times New Roman , sans-serif;
+    background-color:black;
+    margin:0;
     padding: 0;
 }
 .header {
@@ -32,7 +32,7 @@ body {
 }
 
 .news-box h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 0 0 10px;
 }
 
@@ -48,6 +48,6 @@ body {
     text-decoration: none;
 }
 
-.read-more:hover {
+.read-more :hover {
     text-decoration: underline;
 }
