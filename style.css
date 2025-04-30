@@ -30,7 +30,7 @@ body {
 
 .navbar ul li a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(132, 128, 128);
 }
 
 body {
