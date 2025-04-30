@@ -48,6 +48,6 @@ body {
     text-decoration: none;
 }
 
-.read-more:hover {
+.read-more :hover {
     text-decoration: underline;
 }
