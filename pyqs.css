@@ -18,6 +18,9 @@ body {
 }
 
 
+.question-toggle:hover {
+    background-color: whitesmoke;
+}
 
 .question-list {
     list-style-type: none;
