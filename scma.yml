@@ -1,0 +1,6 @@
+This a scm file.
+name: My Application
+version: 1.0.0
+environment:
+ - development
+ - produc
