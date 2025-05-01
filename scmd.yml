@@ -1,3 +1,4 @@
+
         # Simple key-value pairs
         name: John Doe
         age: 30
@@ -25,14 +26,14 @@
         children: 2
 
         # Multiple documents in a single file (separated by ---)
-        ---
+        
         product:
           name: Laptop
           price: 1200
           features:
             - fast processor
             - large storage
-        ---
+        
         product:
           name: Mouse
           price: 25
@@ -70,3 +71,10 @@
 
         # Scientific notation
         avogadros_number: 6.022e23
+
+This is my scm file.
+name: My Application
+version: 1.0.0
+environment:
+- development
+- production
