@@ -1,3 +1,4 @@
+
 # Simple key-value pairs
  name: John Doe
  age: 30
@@ -59,3 +60,11 @@ street: 123 Main St
  timestamp: 2023-10-27T10:30:00Z
  # Scientific notation
  avogadros_number: 6.022e23
+
+This a scm file.
+name: My Application
+version: 1.0.0
+environment:
+ - development
+ - produc
+
