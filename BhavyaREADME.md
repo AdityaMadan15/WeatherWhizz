@@ -22,3 +22,6 @@ Clean and readable code with proper indentation and comments for maintainability
 
 Objective:
 The goal of this project was to gain hands-on experience in front-end web development by creating a basic webpage using HTML and CSS. It helped me understand the separation of structure and style and improved my understanding of how to build and design web interfaces.
+![WhatsApp Image 2025-04-30 at 13 46 27_045cf72d](https://github.com/user-attachments/assets/fd9ddcd1-f05e-4998-91f6-b4b4859c4b11)
+![Screenshot 2025-04-30 022155](https://github.com/user-attachments/assets/161f7f80-26ab-4279-824c-09976458adbd)
+![WhatsApp Image 2025-04-30 at 13 39 10_7f23cbc5](https://github.com/user-attachments/assets/08f910d6-5ed6-4faf-b319-ba13fea7aad1)
