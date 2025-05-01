@@ -1,16 +1,14 @@
 <h1> WEATHERWHIZZ </h1>
-**Project Work by:** Dikshita Jain  
-**Roll Number:** 2410991038  
-**Section:** G-13 B
-
+<p>Project Work by: Dikshita Jain, Roll Number: 2410991038, Section: G-13 B</p>
 <h2> Project Description </h2>
 <p> WeatherWhizz is a sleek and simple weather app that gives you real-time weather updates for any city in the world. It provides temperature, humidity, wind speed, and overall weather conditions in a clean and user-friendly interface </p>
 <br>
-### 🔹 Project Files
+<h4>Project Files</h4>
 
 - **home.html** – This is the main webpage structure written in HTML. It includes sections like the page header, navigation bar, content area, and footer. It also links to external style resources and contains placeholders for dynamic content.
 
 - **style.css** – This stylesheet adds design and layout to the HTML page. It defines colors, fonts, spacing, alignment, and responsive behavior to ensure the site looks good across different devices and screen sizes.
+<p>pyqs.html - pyqs.html – This file functions as the FAQ (Frequently Asked Questions) page of the website. It is structured using HTML to display previous year questions or commonly asked queries. The page includes a header, organized question sections, navigation links, and is styled consistently with the rest of the website for a seamless user experience.</p>
 - <h2> Key Features Implemented </h2>
 <p> Utilized semantic HTML elements like <header>, <nav>, <main>, <section>, and <footer> to structure the page meaningfully.</p>
 <br>
